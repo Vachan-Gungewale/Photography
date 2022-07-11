@@ -1,0 +1,63 @@
+.container{
+    display: block;
+    margin: 0;
+    height: auto;
+    background-color: #eee;
+}
+.sub-container{
+    display: block;
+    margin: auto;
+    width: 900px;
+    height: auto;
+    background-color: #eee;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 30px 0px 40px rgb(0 0 0 / 10%),
+                    -30px 0px 40px rgb(0 0 0 / 10%);
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-text{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+.intro-img{
+    width: auto;
+    height: 100vh;
+}
+.our-work{
+    text-align: center;
+    width: 900px;
+}
+.img{
+    width: 900px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+ }
+footer{
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: #333;
+}
+.header{
+background-color: #333;
+color: #eee;
+padding: 1rem;
+}
+.caption{
+    background-color: white;
+    color: #333;
+    padding: 1rem;
+}
+button{
+    border-radius: 20%;
+    padding: 5px;
+    background-color: #eee;
+}
